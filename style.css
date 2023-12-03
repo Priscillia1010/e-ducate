@@ -79,13 +79,27 @@ nav ul li img {
 }
 
 .home .grade {
-    width: 200px;
-    height: 40px;
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background: var(--main-color);
-    border-radius: 5px;
-    padding: 8px;
+    list-style-type: none;
+    display: inline-flex;
+    border: 1px solid var(--skin-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.home .grade li {
+    margin-right: 50px;
+}
+
+.home .grade a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.home .grade a:hover {
+    color: var(--skin-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
 }
 
 .footer {
@@ -231,4 +245,40 @@ nav ul li img {
 .login a:hover {
     text-decoration: none;
     color: var(--skin-color);
+}
+
+.kelas h1 {
+    margin-top: 5%;
+    text-align: center;
+    color: var(--skin-color);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.kelas .mapel {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.mapel {
+    margin-left: 150px;
+}
+
+.kelas .mapel .column {
+    flex-basis: 25%;
+    text-align: left;
+}
+
+.kelas .mapel .column p {
+    font-size: 20px;
+}
+
+.kelas .mapel .column a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+.kelas .mapel .column a:hover {
+    color: var(--secondary-color);
 }
