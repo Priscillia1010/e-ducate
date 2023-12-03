@@ -1,0 +1,284 @@
+/* https://colorhunt.co/palette/f9b57299b080748e63faf8ed */
+:root {
+    --main-color: #FAF8ED;
+    --skin-color: #F9B572;
+    --secondary-color: #99B080;
+    --accent-color: #748E63;
+    --additional-color: #BFCCB5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-color);
+}
+
+nav {
+    background-color: var(--skin-color);
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: var(--main-color);
+    color: var(--skin-color);
+}
+
+nav ul li img {
+    width: 20px;
+    height: 20px;
+}
+
+.home {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quotes h1 {
+    color: var(--skin-color);
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.quotes h5, .quotes p {
+    color: var(--accent-color);
+    padding: 5px;
+}
+
+.quotes button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--skin-color);
+    color: var(--main-color);
+    padding: 8px 32px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.quotes button:hover {
+    background-color: var(--secondary-color);
+}
+
+.home .grade {
+    list-style-type: none;
+    display: inline-flex;
+    border: 1px solid var(--skin-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.home .grade li {
+    margin-right: 50px;
+}
+
+.home .grade a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.home .grade a:hover {
+    color: var(--skin-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 5%;
+    background-color: var(--skin-color);
+    color: var(--accent-color);
+    padding: 6px;
+}
+
+.footer .community{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer .community .column {
+    flex-basis: 25%;
+    text-align: left;
+}
+
+.footer .community .column p a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.footer .community .column p a:hover {
+    color: var(--main-color);
+}
+
+.footer p {
+    text-align: center;
+}
+
+.about {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about .welcome h2 {
+    color: var(--skin-color);
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.about .welcome p {
+    width: 50%;
+    color: var(--accent-color);
+    margin-left: 24%;
+    margin-bottom: 5%;
+}
+
+.social h1 {
+    margin-top: 5%;
+    text-align: center;
+    color: var(--skin-color);
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.social ul {
+    margin-left: 38%;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.social ul li {
+    margin-bottom: 10px;
+}
+
+.social ul li a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+.social ul li a:hover {
+    color: var(--secondary-color);
+}
+
+.social ul li img {
+    width: 30px;
+    height: 30px;
+}
+
+.login {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login .data {
+    width: 40%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.login .data h2 {
+    color: var(--skin-color);
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.login label {
+    float: left;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+}
+
+.login input {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 33px;
+    width: 350px;
+    border: 1px solid var(--additional-color);
+}
+
+.login button {
+    cursor: pointer;
+    background-color: var(--skin-color);
+    color: var(--main-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.login button:hover {
+    background-color: var(--secondary-color);
+}
+
+.login a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+.login a:hover {
+    text-decoration: none;
+    color: var(--skin-color);
+}
+
+.kelas h1 {
+    margin-top: 5%;
+    text-align: center;
+    color: var(--skin-color);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.kelas .mapel {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.mapel {
+    margin-left: 150px;
+}
+
+.kelas .mapel .column {
+    flex-basis: 25%;
+    text-align: left;
+}
+
+.kelas .mapel .column p {
+    font-size: 20px;
+}
+
+.kelas .mapel .column a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+.kelas .mapel .column a:hover {
+    color: var(--secondary-color);
+}
