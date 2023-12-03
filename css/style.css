@@ -255,6 +255,17 @@ nav ul li img {
     margin-bottom: 30px;
 }
 
+.kelas .back {
+    color: var(--accent-color);
+    text-decoration: none;
+    position: absolute;
+    font-size: 18px;
+}
+
+.kelas .back:hover {
+    color: var(--skin-color);
+}
+
 .kelas .mapel {
     display: flex;
     justify-content: space-around;

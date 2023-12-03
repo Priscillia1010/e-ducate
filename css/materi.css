@@ -1,0 +1,31 @@
+:root {
+    --main-color: #FAF8ED;
+    --skin-color: #F9B572;
+    --secondary-color: #99B080;
+    --accent-color: #748E63;
+    --additional-color: #BFCCB5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--skin-color);
+}
+
+video {
+    margin-left: 130px;
+    background-color: var(--accent-color);
+    padding: 10px;
+    width: 850px;
+}
+
+a {
+    margin-left: 80px;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color: var(--main-color);
+}
