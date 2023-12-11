@@ -42,10 +42,30 @@ nav ul li img {
     width: 20px;
     height: 20px;
 }
+
+a {
+  margin-left: 45px;
+  color: var(--accent-color);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  color: var(--skin-color);
+}
+
+.container {
+  display: inline-flex;
+}
+
+.button_soal {
+  width: 20%;
+  text-align: center;
+}
   
   .chat-container {
     width: 600px;
-    margin: 20px auto;
+    margin-left: 110px;
     margin-top: 30px;
     background-color: var(--additional-color);
     border-radius: 5px;
@@ -88,7 +108,7 @@ nav ul li img {
     border: 1px solid var(--accent-color);
   }
   
-  button {
+  .soal  {
     padding: 8px 15px;
     border: none;
     border-radius: 3px;
@@ -97,8 +117,17 @@ nav ul li img {
     cursor: pointer;
   }
   
-  button:hover {
+  .soal:hover {
     background-color: var(--secondary-color);
+  }
+  
+  .send {
+    background-color: var(--additional-color);
+    border: none;
+    color: var(--main-color);
+    border-radius: 5px;
+    height: 40px;
+    width: 70px;
   }
 
   h1 {
@@ -106,4 +135,35 @@ nav ul li img {
     font-weight: bold;
     text-align: center;
   }
+
+nav {
+    background-color: var(--skin-color);
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: var(--main-color);
+    color: var(--skin-color);
+}
+
+nav ul li img {
+    width: 20px;
+    height: 20px;
+}
   

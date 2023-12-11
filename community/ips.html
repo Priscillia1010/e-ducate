@@ -17,22 +17,31 @@
     </ul>
 </nav>
     <h1>IPS</h1>
-    <div class="chat-container">
-        <div class="chat-box">
-          <div class="chat-message">
-            <div class="message">Hello!</div>
-          </div>
-          <div class="chat-message">
-            <div class="message">Welcome to E-ducate community</div>
-          </div>
-          <div class="chat-message">
-            <div class="message">How can I help you?</div>
-          </div>
-        </div>
-        <div class="input-container">
-          <input type="text" placeholder="Type your message...">
-          <button>Send</button>
-        </div>
+    <div class="container">
+      <div class="button_soal">
+        <a class="back" href="../navbar/home.html">Back</a> <br>
+        <button class="soal" style="margin-left: 43px; margin-top: 10px" onclick="window.location.href='../soal/kelas7/ips.html'">Kelas 7</button> <br>
+        <button class="soal" style="margin-left: 43px; margin-top: 10px" onclick="window.location.href='../soal/kelas8/ips.html'">Kelas 8</button> <br>
+        <button class="soal" style="margin-left: 43px; margin-top: 10px" onclick="window.location.href='../soal/kelas9/ips.html'">Kelas 9</button>
       </div>
+      <div class="chat-container">
+          <div class="chat-box">
+            <div class="chat-message">
+              <div class="message">Hello!</div>
+            </div>
+            <div class="chat-message">
+              <div class="message">Welcome to E-ducate community</div>
+            </div>
+            <div class="chat-message">
+              <div class="message">How can I help you?</div>
+            </div>
+          </div>
+          <div class="input-container">
+            <input class="inputContent" type="text" placeholder="Type your message...">
+            <button class="send" onclick="addInput()">Send</button>
+          </div>
+        </div>
+    </div>
+      <script src="../js/script.js"></script>
 </body>
 </html>
